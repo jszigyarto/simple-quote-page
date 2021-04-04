@@ -1,24 +1,9 @@
-html, body {
-  margin: 5 auto 5 auto;
-  padding: 5;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.1em;
-
-head, body {
-  height: 100%;
-  width: 100%;
-  background-image: url(assets/freedom.jpg);
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: fixed;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
+body {
   background-color: aqua;
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
   background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
   
   .quote {
@@ -26,3 +11,8 @@ head, body {
     fonr-family: "Arial";
     color: deeppink;
   }
+  
+  .author {
+    text-align: center;
+  }
+  
