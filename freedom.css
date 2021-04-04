@@ -1,18 +1,35 @@
+html, body {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  letter-spacing: 0.1em;
+}
+
 body {
-  background-color: aqua;
   background: url(assets/freedom.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
+
+.container {
+  text-align: center;
+  color: black;
+  margin-top: 10rem;
+  font-family: "Times New Roman";
+}
+
+.quote {
+  text-align: center;
+  text-transform:uppercase;
+  margin-top: 5%;
+  line-height: 2em;
+  font-size: 28px;
+}
   
-  .quote {
-    text-align: center;
-    fonr-family: "Arial";
-    color: deeppink;
-  }
-  
-  .author {
-    text-align: center;
-  }
-  
+.author {
+  font-size: 24px;
+}
